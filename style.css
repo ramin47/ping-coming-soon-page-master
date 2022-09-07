@@ -1,0 +1,117 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+
+  margin: 0;
+}
+
+
+.container {
+  text-align: center;
+}
+
+.main-img {
+  width: 450px;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.logo-img {
+  margin-top: 45px;
+  width: 60px;
+}
+
+.header-one {
+  color: gray;
+  font-size: 40px;
+}
+
+.parag-one {
+  color: gray;
+}
+
+
+.input-email {
+  border: 1px solid gray;
+  border-radius: 15px;
+  padding: 8px;
+  width: 300px;
+  margin-right: 8px;
+}
+
+.input-btn {
+  border-radius: 15px;
+  border: none;
+  background-color: #4E7AF5;
+  color: white;
+  width: 125px;
+  height: 35px;
+
+}
+
+.parag-copy {
+  color: gray;
+  font-size: 15px;
+}
+
+.email {
+  display: flex;
+  justify-content: center;
+}
+
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+
+
+.fa-facebook {
+    color: #4E7AF5;
+  }
+  
+  .fa-twitter {
+    color: #4E7AF5;
+  }
+  
+  .fa-google {
+    color: #4E7AF5;
+  }
+
+  .fa-facebook:hover {
+    color: gray;
+  }
+  
+  .fa-twitter:hover {
+    color: gray;
+  }
+  
+  .fa-google:hover {
+    color: gray;
+  }
+
+  .input-btn:hover {
+    background-color: gray;
+
+  }
+
+  #message {
+    color: red;
+  }
+
+  @media (max-width: 700px) {
+    .email {
+      display: grid;
+      grid-template-columns: auto;
+    }
+    .input-btn {
+      width: 300px;
+    }
+  }
