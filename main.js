@@ -10,11 +10,6 @@ getBtn.addEventListener("click", function() {
     getEmail.value = ""
 
     localStorage.setItem("Email", myArray)
-
-    
-
-
-  
 })
 
 
